@@ -82,19 +82,19 @@ section h2 {
 
 
 /*======================================
-=            CALL TO ACTION            =
+=            INTRODUCKSHIN             =
 ======================================*/
-#call-to-action .wrap {
+#intro .wrap {
     text-align: center;
     background: #222;
 }
-#call-to-action h1 {
+#intro h1 {
     color: #fff;
     font-weight: 200;
     font-size: 130px;
     margin: -100px 0 0;
 }
-#call-to-action p {
+#intro p {
     font-size: 30px;
     font-weight: 300;
     margin: 0;
@@ -119,9 +119,9 @@ section h2 {
 
 
 /*================================
-=            SERVICES            =
+=            Education            =
 ================================*/
-#services .wrap {
+#education .wrap {
     padding: 100px 0;
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ section h2 {
     -moz-background-size: cover;
     background-size: cover;
 }
-#services .wrap:before {
+#education .wrap:before {
     position: absolute;
     content: ' ';
     left: 0;
@@ -143,7 +143,7 @@ section h2 {
     display: block;
     opacity: 0.6;
 }
-#services h2, #services h3, #services p { color: #fff; }
+#education h2, #services h3, #services p { color: #fff; }
 
 
 
@@ -153,18 +153,25 @@ section h2 {
 ============================*/
 #work .wrap {
     padding: 100px 0;
-    background: rgb(52, 140, 255);
+    background: rgb(0, 209, 2);
 }
 #work h2, #work h3, #work p { color: #fff; }
 
 
-
+/*============================
+=           SKILLS            =
+============================*/
+#skills .wrap {
+    padding: 100px 0;
+    background: rgb(52, 140, 255);
+}
+#skills h2, #skills h3, #skills p { color: #fff; }
 
 
 /*===============================
 =            CONTACT            =
 ===============================*/
-#contact .wrap {
+#connect .wrap {
     background: #ff59e7;
 }
 
@@ -214,4 +221,32 @@ section h2 {
 
 .socialiconcolor:hover {
     color: black;
+}
+
+/*=====================================
+=           custom navbar stuff       =
+=====================================*/
+
+.navbarcolor {
+    background: #222;
+    border: none;
+}
+
+.thanks {
+    display: none;
+}
+
+.brand-logo {
+    color: whitesmoke;
+      -o-transition: 1s;
+      -ms-transition: 1s;
+      -moz-transition: 1s;
+      -webkit-transition: 1s;
+      transition: 1s;
+      transition-timing-function: ease-in-out;
+    margin: -2px;
+}
+
+.brand-logo:hover {
+    color: rgb(41, 215, 255);
 }
