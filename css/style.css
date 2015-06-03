@@ -94,7 +94,7 @@ section h2 {
     font-size: 130px;
     margin: -100px 0 0;
 }
-#intro p {
+#intro h2 {
     font-size: 30px;
     font-weight: 300;
     margin: 0;
@@ -110,7 +110,8 @@ section h2 {
 =============================*/
 #about .wrap {
     padding: 100px 0;
-    background: rgb(177, 106, 255)
+    background: rgb(177, 106, 255);
+    opacity: .7;
 }
 #about h2 {
     color: #fff;
@@ -125,7 +126,7 @@ section h2 {
     padding: 100px 0;
     background-position: 50% 0;
     background-repeat: no-repeat;
-    background-image: url('../images/beacheslovewater.jpg');
+    background-image: url('../images/umslgradpic.jpg');
     background-color: orange;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -138,12 +139,17 @@ section h2 {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: -webkit-linear-gradient(225deg, forestgreen 7%, orange);
-    background-image: linear-gradient(225deg, forestgreen 7%, orange);
+    background-image: -webkit-linear-gradient(225deg,red 7%, yellow);
+    background-image: linear-gradient(225deg, red 7%, yellow);
     display: block;
-    opacity: 0.6;
+    opacity: .7;
 }
-#education h2, #services h3, #services p { color: #fff; }
+#education h2, #education h3, #education h4, #education p { color: #fff; }
+
+.cap-icon {
+    text-align: center;
+    padding-top: 30px;
+}
 
 
 
@@ -220,7 +226,7 @@ section h2 {
 }
 
 .socialiconcolor:hover {
-    color: black;
+    color: #222;
 }
 
 /*=====================================
@@ -229,8 +235,12 @@ section h2 {
 
 .navbarcolor {
     background: #222;
+    font-size: 110%;
     font-weight: 700;
     border: none;
+    float: none;
+    text-align: center;
+    padding: 0;
 }
 
 .thanks {
@@ -245,9 +255,33 @@ section h2 {
       -webkit-transition: 1s;
       transition: 1s;
       transition-timing-function: ease-in-out;
-    margin: -2px;
+    margin: -4px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .brand-logo:hover {
     color: rgb(41, 215, 255);
+}
+
+li.col-md-2, li.col-md-1 {
+    padding: 0;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+}
+
+.navbar-collapse {
+    border-top: none;
+    box-shadow: none;
+}
+
+.collapse {
+    display: inline-block;
+}
+
+.custom-panel {
+    opacity: .7;
 }
