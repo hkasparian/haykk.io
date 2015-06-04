@@ -117,6 +117,10 @@ section h2 {
     color: #fff;
 }
 
+.about-panel {
+    opacity: .85;
+}
+
 
 
 /*================================
@@ -159,9 +163,13 @@ section h2 {
 ============================*/
 #work .wrap {
     padding: 100px 0;
-    background: rgb(0, 209, 2);
+    background: rgba(9, 210, 11, 0.9);
 }
-#work h2, #work h3, #work p { color: #fff; }
+#work h2 {
+    color: whitesmoke;
+}
+
+#work h3, #work p { color: #2d2d2d; }
 
 
 /*============================
@@ -179,6 +187,10 @@ section h2 {
 ===============================*/
 #connect .wrap {
     background: #ff59e7;
+}
+
+.connect-panel {
+    opacity: .8;
 }
 
 
@@ -212,12 +224,12 @@ section h2 {
 =====================================*/
 
 .socialiconcolor {
-    color: whitesmoke;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  -webkit-transition: 1s;
-    transition: 1s;
+    color: #ffaaf3;
+  -o-transition: .8s;
+  -ms-transition: .8s;
+  -moz-transition: .8s;
+  -webkit-transition: .8s;
+    transition: .8s;
     transition-timing-function: ease-in-out;
 }
 
@@ -226,7 +238,7 @@ section h2 {
 }
 
 .socialiconcolor:hover {
-    color: #222;
+    color: #404040;
 }
 
 /*=====================================
@@ -284,4 +296,8 @@ li.col-md-2, li.col-md-1 {
 
 .custom-panel {
     opacity: .7;
+}
+
+.custom-panel:hover {
+    opacity: .9;
 }

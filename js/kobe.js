@@ -42,7 +42,7 @@ $(window).load(function() {
 $(window).resize(function() {
 
     // Kill for small screens
-    if ($(window).width() <= 200 && !scrollMagicIsDestroyed) {
+    if ($(window).width() <= 450 && !scrollMagicIsDestroyed) {
         destroyScrollMagic();
         scrollMagicIsDestroyed = true;
         $('body').addClass('no-scroll-magic');
