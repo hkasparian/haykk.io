@@ -163,13 +163,13 @@ section h2 {
 ============================*/
 #work .wrap {
     padding: 100px 0;
-    background: rgba(9, 210, 11, 0.9);
+    background: rgba(37, 223, 37, 0.95);
 }
 #work h2 {
     color: whitesmoke;
 }
 
-#work h3, #work p { color: #2d2d2d; }
+#work h3, #work h4, #work p { color: #2d2d2d; }
 
 
 /*============================
@@ -295,9 +295,19 @@ li.col-md-2, li.col-md-1 {
 }
 
 .custom-panel {
-    opacity: .7;
+    opacity: .8;
+    color: whitesmoke;
+    box-shadow: 1px 2px 2px #808080;
 }
 
 .custom-panel:hover {
-    opacity: .9;
+    opacity: 4;
+    box-shadow: 2px 5px 5px #808080;
+}
+
+.background-panel {
+    opacity: .7;
+    background-color: rgb(197, 255, 197);
+    border: none;
+    box-shadow: 1px 1px 1px #808080;
 }
