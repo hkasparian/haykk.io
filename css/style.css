@@ -119,6 +119,7 @@ section h2 {
 
 .about-panel {
     opacity: .85;
+    box-shadow: 1px 2px 2px #808080;
 }
 
 
@@ -130,7 +131,7 @@ section h2 {
     padding: 100px 0;
     background-position: 50% 0;
     background-repeat: no-repeat;
-    background-image: url('../images/umslgradpic.jpg');
+    background-image: url('../images/education/umslgradpic.jpg');
     background-color: orange;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -179,7 +180,18 @@ section h2 {
     padding: 100px 0;
     background: rgb(52, 140, 255);
 }
-#skills h2, #skills h3, #skills p { color: #fff; }
+#skills h2 {
+    color: whitesmoke;
+}
+
+#skills h3, #skills h4, #skills p { 
+    color: #2d2d2d;
+}
+
+#skills img {
+    height: 70px;
+}
+
 
 
 /*===============================
@@ -191,6 +203,7 @@ section h2 {
 
 .connect-panel {
     opacity: .8;
+    box-shadow: 1px 2px 2px #808080;
 }
 
 
@@ -212,10 +225,15 @@ section h2 {
 /*=====================================
 =            MEDIA QUERIES            =
 =====================================*/
-@media only screen and (max-width : 767px) {
+@media only screen and (max-width : 500px) {
     #call-to-action h1 { font-size: 60px; }
     #call-to-action p { font-size: 17px; }
     #footer h2 { font-size: 30px; }
+    h3 { font-size: smaller;}
+    h4 { font-size: smaller;}
+    #skills h3 {
+    font-size: medium;
+}
 }
 
 
@@ -294,20 +312,49 @@ li.col-md-2, li.col-md-1 {
     display: inline-block;
 }
 
-.custom-panel {
-    opacity: .8;
+.work-panel {
+    opacity: .85;
     color: whitesmoke;
     box-shadow: 1px 2px 2px #808080;
 }
 
-.custom-panel:hover {
+.work-panel:hover {
     opacity: 4;
     box-shadow: 2px 5px 5px #808080;
 }
 
-.background-panel {
-    opacity: .7;
+.work-background-panel {
+    opacity: .75;
     background-color: rgb(197, 255, 197);
     border: none;
     box-shadow: 1px 1px 1px #808080;
+}
+
+.skills-background-panel {
+    opacity: .75;
+    background-color: rgb(197, 223, 255);
+    border: none;
+    box-shadow: 1px 1px 1px #808080;
+}
+
+.skills-panel {
+    opacity: .85;
+    color: whitesmoke;
+    box-shadow: 1px 2px 2px #808080;
+    vertical-align: text-top;
+    max-height: 140px;
+    line-height: 140px;
+}
+
+.skills-panel:hover {
+    opacity: 4;
+    box-shadow: 2px 5px 5px #808080;
+}
+
+.img-inline {
+    display: inline-block;
+}
+
+.navbar-shadow {
+    box-shadow: 2px 2px 2px #222;
 }
