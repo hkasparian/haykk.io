@@ -101,6 +101,10 @@ section h2 {
     color: #3bcfff;
 }
 
+#intro h3 {
+    font-size: 24px;
+    color: #00c1ff;
+}
 
 
 
@@ -164,7 +168,7 @@ section h2 {
 ============================*/
 #work .wrap {
     padding: 100px 0;
-    background: rgba(37, 223, 37, 0.95);
+    background: #2ecc71;
 }
 #work h2 {
     color: whitesmoke;
@@ -198,11 +202,11 @@ section h2 {
 =            CONTACT            =
 ===============================*/
 #connect .wrap {
-    background: #ff59e7;
+    background: #c0392b;
 }
 
 .connect-panel {
-    opacity: .8;
+    opacity: .9;
     box-shadow: 1px 2px 2px #808080;
 }
 
@@ -226,8 +230,20 @@ section h2 {
 =            MEDIA QUERIES            =
 =====================================*/
 @media only screen and (max-width : 500px) {
-    #call-to-action h1 { font-size: 60px; }
-    #call-to-action p { font-size: 17px; }
+    .navbarcolor {
+        overflow: hidden;
+    }
+    .navbarcolor a {
+        font-size: xx-small;
+    }
+    .brand-logo img {
+        height: 20px;
+        width: 20px;
+    }
+    #intro h1, #about h2, #education h2, #work h2, #skills h2, #connect h2 { font-size: 40px; }
+    #intro h2 { font-size: 20px; }
+    #intro h3 { font-size: 16px; }
+    #intro p { font-size: 17px; }
     #footer h2 { font-size: 30px; }
     h3 { font-size: smaller;}
     h4 { font-size: smaller;}
@@ -242,7 +258,7 @@ section h2 {
 =====================================*/
 
 .socialiconcolor {
-    color: #ffaaf3;
+    color: #e74c3c;
   -o-transition: .8s;
   -ms-transition: .8s;
   -moz-transition: .8s;
@@ -256,7 +272,7 @@ section h2 {
 }
 
 .socialiconcolor:hover {
-    color: #404040;
+    color: #545454;
 }
 
 /*=====================================
@@ -271,6 +287,7 @@ section h2 {
     float: none;
     text-align: center;
     padding: 0;
+    overflow: hidden;
 }
 
 .thanks {
@@ -313,7 +330,7 @@ li.col-md-2, li.col-md-1 {
 }
 
 .work-panel {
-    opacity: .85;
+    opacity: .95;
     color: whitesmoke;
     box-shadow: 1px 2px 2px #808080;
 }
@@ -324,21 +341,21 @@ li.col-md-2, li.col-md-1 {
 }
 
 .work-background-panel {
-    opacity: .75;
+    opacity: .85;
     background-color: rgb(197, 255, 197);
     border: none;
     box-shadow: 1px 1px 1px #808080;
 }
 
 .skills-background-panel {
-    opacity: .75;
+    opacity: .85;
     background-color: rgb(197, 223, 255);
     border: none;
     box-shadow: 1px 1px 1px #808080;
 }
 
 .skills-panel {
-    opacity: .85;
+    opacity: .95;
     color: whitesmoke;
     box-shadow: 1px 2px 2px #808080;
     vertical-align: text-top;
