@@ -176,6 +176,27 @@ section h2 {
 
 #work h3, #work h4, #work p { color: #2d2d2d; }
 
+#work img {
+    max-height: 70px;
+}
+
+.work-panel {
+    opacity: .95;
+    color: whitesmoke;
+    box-shadow: 1px 2px 2px #808080;
+}
+
+.work-panel:hover {
+    opacity: 4;
+    box-shadow: 2px 5px 5px #808080;
+}
+
+.work-background-panel {
+    opacity: .85;
+    background-color: rgb(197, 255, 197);
+    border: none;
+    box-shadow: 1px 1px 1px #808080;
+}
 
 /*============================
 =           SKILLS            =
@@ -196,6 +217,26 @@ section h2 {
     height: 70px;
 }
 
+.skills-background-panel {
+    opacity: .85;
+    background-color: rgb(197, 223, 255);
+    border: none;
+    box-shadow: 1px 1px 1px #808080;
+}
+
+.skills-panel {
+    opacity: .95;
+    color: whitesmoke;
+    box-shadow: 1px 2px 2px #808080;
+    vertical-align: text-top;
+    max-height: 140px;
+    line-height: 140px;
+}
+
+.skills-panel:hover {
+    opacity: 4;
+    box-shadow: 2px 5px 5px #808080;
+}
 
 
 /*===============================
@@ -218,10 +259,6 @@ section h2 {
 ==============================*/
 #footer .wrap { background: #222; }
 #footer h2 { color: #fff; }
-
-
-
-
 
 
 
@@ -308,10 +345,6 @@ section h2 {
     align-self: center;
 }
 
-.brand-logo:hover {
-    color: rgb(41, 215, 255);
-}
-
 li.col-md-2, li.col-md-1 {
     padding: 0;
 }
@@ -327,45 +360,6 @@ li.col-md-2, li.col-md-1 {
 
 .collapse {
     display: inline-block;
-}
-
-.work-panel {
-    opacity: .95;
-    color: whitesmoke;
-    box-shadow: 1px 2px 2px #808080;
-}
-
-.work-panel:hover {
-    opacity: 4;
-    box-shadow: 2px 5px 5px #808080;
-}
-
-.work-background-panel {
-    opacity: .85;
-    background-color: rgb(197, 255, 197);
-    border: none;
-    box-shadow: 1px 1px 1px #808080;
-}
-
-.skills-background-panel {
-    opacity: .85;
-    background-color: rgb(197, 223, 255);
-    border: none;
-    box-shadow: 1px 1px 1px #808080;
-}
-
-.skills-panel {
-    opacity: .95;
-    color: whitesmoke;
-    box-shadow: 1px 2px 2px #808080;
-    vertical-align: text-top;
-    max-height: 140px;
-    line-height: 140px;
-}
-
-.skills-panel:hover {
-    opacity: 4;
-    box-shadow: 2px 5px 5px #808080;
 }
 
 .img-inline {
